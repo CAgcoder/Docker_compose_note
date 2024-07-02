@@ -1,0 +1,7 @@
+docker compose -f compose.yaml up -d (start the comtainer)
+docker compose -f compose.yaml down -d (did not deleted the volum means the data was still stored)
+docker compose -f compose.yaml down --rmi all -v (deleted the comtainers and the volums and the data)
+docker build -f Dockerfile -t myjavaapp:v1.0 . (create a container with the docker file)
+docker run -d -p 8888:8080 myjavaapp:v1.0
+docker ps (take a look of all the running containers)
+docker rm -f $(docker ps -aq)(delete all the containers)
