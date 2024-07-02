@@ -1,2 +1,2 @@
 # Docker_conpose_note
-Some not of Docker learning
+Some note of Docker learning
